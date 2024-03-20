@@ -1,0 +1,73 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-size: 'Gilroy';
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(139, 139, 139);
+    display: flex;
+    justify-content: center;
+}
+.msg{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(139, 139, 139);
+    position: fixed;
+}
+.msg h1{
+    margin-left: 500px;
+    margin-top: 200px;
+}
+.msg h3{
+    margin-left: 500px;
+    margin-top: 20px;
+    color: white;
+}
+.msg button{
+    margin-left: 850px;
+    margin-top: 100px;
+    padding: 1rem;
+    font-size: 1.25em ;
+    border-radius: 1rem;
+    border: none;
+}
+.hide{
+    display: none;
+}
+#container{
+    margin-top: 30px;
+    height: 60vh;
+    width: 60vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(139, 139, 139);
+    flex-wrap: wrap;
+}
+h1{
+    margin-left: 50px;
+    margin-top: 10px;
+    color: white;
+}
+.box{
+    width: 18vmin;
+    height: 18vmin;
+    border-radius: 1rem ;
+    border: none;
+    box-shadow: 0 0 0.5rem black;
+    color: black;
+    font-size: 8vmin;
+}
+#reset-btn{
+    padding: 1rem;
+    font-size: 1.25em ;
+    color: white;
+    border-radius: 1rem;
+    border: none;
+    background-color: bisque;
+    margin-left: 100px;
+    margin-top: 30px;
+}
